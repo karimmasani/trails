@@ -17,6 +17,7 @@
         </environment>
     </head>
     <body>
+        <base href="/" />
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -61,7 +62,12 @@
             </script>
             <script src="~/js/site.min.js" asp-append-version="true"></script>
         </environment>
-
+        <script src="~/lib/angular/angular.js"></script>
+        <script src="~/lib/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="~/app/app.module.js"></script>
+        <script src="~/app/app.config.js"></script>
+        <script src="~/app/home.controller.js"></script>
+        <script src="~/app/runners.controller.js"></script>
         @RenderSection("scripts", required: false)
     </body>
 </html>
