@@ -234,3 +234,4 @@ _Pvt_Extensions
 .fake/
 *.xproj
 *.sln
+/Properties/launchSettings.json
